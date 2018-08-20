@@ -22,12 +22,11 @@ public class CASA : MonoBehaviour {
 	void Start ()
 	{
 		
-		//Casas = Random.Range(1, 9);
+		
 		if (jogafrente == true) 
 		{
 			novapos = transform.position;
 			novapos.z += 46;
-			//novapos.y = 4f;
 			transform.position = novapos;
 
 		}
